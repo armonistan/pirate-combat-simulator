@@ -1,6 +1,7 @@
 package gui;
 
 import javax.swing.JFrame;
+import util.DiceRoller;
 
 public class MainWindow extends JFrame{
 	public MainWindow(){
