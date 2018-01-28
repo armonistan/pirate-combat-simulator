@@ -1,8 +1,10 @@
 
+import gui.MainWindow;
+
 public class main {
 
 	public static void main(String[] args) {
-		System.out.println("hello world");
+		MainWindow mainWindow = new MainWindow();
 	}
 
 }
