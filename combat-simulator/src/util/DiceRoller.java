@@ -1,7 +1,7 @@
 package util;
 
 public class DiceRoller {	
-	public int rollD6(int numDiceToRoll){
+	public static int rollD6(int numDiceToRoll){
 		int rollTotal = 0;
 		
 		for(int diceRolled=0; diceRolled < numDiceToRoll; diceRolled++){
