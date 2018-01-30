@@ -20,9 +20,9 @@ public class CombatSimulatorTwo {
 				results.numberOfAttackerWins++;
 			}
 		}
-		 
-		results.percentAttackerWins = Math.round((results.numberOfAttackerWins/numberOfTrials)*100);
-		results.percentDefenderWins = Math.round((results.numberOfDefenderWins/numberOfTrials)*100);
+		
+		results.percentAttackerWins = (Math.round((results.numberOfAttackerWins * 100)/numberOfTrials));
+		results.percentDefenderWins = (Math.round((results.numberOfDefenderWins * 100)/numberOfTrials));
 		
 		return results;
 	}
